@@ -1,0 +1,197 @@
+#background{
+    background-color: #000;
+}
+
+.head-parent{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+}
+.logo .fa-camera{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #27A776;
+    background-color: transparent;
+    position: relative;
+    top: 5px;
+}
+#navmenu .active{
+    color: #fff;
+    opacity: 1;
+}
+.sitename{
+    color: #fff;
+    position: absolute;
+    left: 45px;
+   font-size: 1.8rem;
+
+}
+#navmenu ul li{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px;
+}
+#navmenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.6;
+}
+#navmenu ul li a:hover{
+    color: #fff;
+    opacity: 1;
+}
+.header-social-links a .fa-brands{
+    color: white;
+    position: relative;
+    top: 20px;
+    padding: 6px;
+}
+.header-social-links a:hover {
+    color: #27A776;
+}
+.main{
+    margin-top: 110px;
+}
+.container{
+    text-align: center;
+    color: #fff;
+}
+.container h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+.container p{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h2 .underlight{
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    display: inline-block;
+}
+/*
+.container h2 .underlight:before{
+    content: "";
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #27A776;
+  }*/
+.btn-get-started{
+    background-color: #27A776;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    line-height: 69px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Gallery{
+    margin-top: 100px;
+    padding: 0 5px;
+}
+.gallery-3row1{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.st-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.icons-pack{
+    position: absolute;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all ease-in 0.3s;
+    inset: 0;
+    z-index: 3;
+   
+}
+.st-img:hover .icons-pack{
+    opacity: 1;
+}
+.images{
+    width: 250px;
+    height: 190px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+}
+.gallery-3row2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.glightbox{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+}
+.details-link{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.5rem thin;
+    position: relative;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+}
+.port-foot{
+    margin-top: 50px;
+    background-color: #0D0D0D;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot-social-links a  {
+    border: 2px solid white;
+    background: transparent;
+    color: #838383;
+    padding: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.foot-social-links a:hover {
+    color: #27A776;
+}
+.port-foot p span{
+    color: #27A776;
+}
+#scroll-top{
+    color: #fff;
+    background-color: #27A776;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 50%;
+   
+}
